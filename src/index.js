@@ -1926,13 +1926,12 @@ const App = () => {
               <div class="container">
                 <div id="navbarMenuHeroA" class="navbar-menu">
                   <div class="navbar-end">
-                    <a class="navbar-item is-active" href="./index.html">
-                      Home
+                    <a
+                      class="navbar-item is-active"
+                      href="https://github.com/Arasou-0206/qiita_LDA"
+                    >
+                      Githubへはこちら
                     </a>
-                    <a class="navbar-item" href="./explanation.html">
-                      Examples
-                    </a>
-                    <a class="navbar-item">Documentation</a>
                   </div>
                 </div>
               </div>
