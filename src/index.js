@@ -1940,7 +1940,9 @@ const App = () => {
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-1">LDAを用いたQiitaの分析</h1>
-              <h2 class="subtitle is-6">適当に説明書くところ</h2>
+              <h2 class="subtitle is-6">
+                Qiitaのデータをもとに、今qiitaでバズるには
+              </h2>
             </div>
           </div>
         </section>
@@ -1996,12 +1998,14 @@ const App = () => {
           <a name="topic1" id="topic1"></a>
           <div class="box">
             <h1 class="title is-2">topic 1</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2014,9 +2018,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2050,12 +2056,14 @@ const App = () => {
           <a name="topic2" id="topic2"></a>
           <div class="box">
             <h1 class="title is-2">topic 2</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2068,9 +2076,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2104,12 +2114,14 @@ const App = () => {
           <a name="topic3" id="topic3"></a>
           <div class="box">
             <h1 class="title is-2">topic 3</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2122,9 +2134,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2158,12 +2172,14 @@ const App = () => {
           <a name="topic4" id="topic4"></a>
           <div class="box">
             <h1 class="title is-2">topic 4</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2176,9 +2192,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2212,12 +2230,14 @@ const App = () => {
           <a name="topic5" id="topic5"></a>
           <div class="box">
             <h1 class="title is-2">topic 5</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2230,9 +2250,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2266,12 +2288,14 @@ const App = () => {
           <a name="topic6" id="topic6"></a>
           <div class="box">
             <h1 class="title is-2">topic 6</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2284,9 +2308,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2320,12 +2346,14 @@ const App = () => {
           <a name="topic7" id="topic7"></a>
           <div class="box">
             <h1 class="title is-2">topic 7</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2338,9 +2366,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2374,12 +2404,14 @@ const App = () => {
           <a name="topic8" id="topic8"></a>
           <div class="box">
             <h1 class="title is-2">topic 8</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2392,9 +2424,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2428,12 +2462,14 @@ const App = () => {
           <a name="topic9" id="topic9"></a>
           <div class="box">
             <h1 class="title is-2">topic 9</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2446,9 +2482,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2482,12 +2520,14 @@ const App = () => {
           <a name="topic10" id="topic10"></a>
           <div class="box">
             <h1 class="title is-2">topic 10</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2500,9 +2540,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2536,12 +2578,14 @@ const App = () => {
           <a name="topic11" id="topic11"></a>
           <div class="box">
             <h1 class="title is-2">topic 11</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2554,9 +2598,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
@@ -2590,12 +2636,14 @@ const App = () => {
           <a name="topic12" id="topic12"></a>
           <div class="box">
             <h1 class="title is-2">topic 12</h1>
-            <div class="tile is-ancestor">
+            <div class="tile is-success">
               <div class="tile is-parent is-2">
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">Word Cloud</p>
+                    <p class="subtitle">
+                      このトピックの上位30件の単語を表示しています。
+                    </p>
                     <div
                       class="box has-background-white"
                       style={{ width: "500px", height: "600px" }}
@@ -2608,9 +2656,11 @@ const App = () => {
                   </article>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child box has-background-danger">
-                    <p class="title">Wide tile</p>
-                    <p class="subtitle">Aligned with the right tile</p>
+                  <article class="tile is-child box has-background-success">
+                    <p class="title">TreeMap</p>
+                    <p class="subtitle">
+                      Topicを用いてどのタグが使われているか表示した結果です。
+                    </p>
                     <div
                       class="container"
                       style={{ width: "1190px", height: "600px" }}
