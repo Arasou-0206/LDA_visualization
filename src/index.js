@@ -2695,9 +2695,11 @@ const App = () => {
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-success is-large" href="PageTop">
-                <strong>Page Top</strong>
-              </a>
+              <p id="pageTop">
+                <a class="button is-success is-large" href="#">
+                  <strong>Page Top</strong>
+                </a>
+              </p>
             </div>
           </div>
         </div>
