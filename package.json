@@ -11,15 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^3.1.0",
-    "react-script": "^2.0.5"
+    "react-script": "^2.0.5",
+    "react-scripts": "^4.0.1"
   },
   "dependencies": {
     "@nivo/bar": "^0.62.0",
     "@nivo/circle-packing": "^0.62.0",
     "@nivo/parallel-coordinates": "^0.62.0",
     "@nivo/treemap": "^0.62.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-wordcloud": "^1.2.7"
   },
   "browserslist": {
@@ -34,5 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Arasou-0206.github.io/LDA_visualization"
+  "homepage": "https://Arasou-0206.github.io/LDA_visualization/"
 }
