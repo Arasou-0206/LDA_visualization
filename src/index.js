@@ -154,11 +154,11 @@ const App = () => {
 
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-1">LDAを用いたQiitaの分析</h1>
+              <h1 class="title is-1">LDAを用いたQiita記事のトピック可視化</h1>
               <h2 class="subtitle is-6">
-                Qiitaのデータをもとに、今qiitaでバズるにはトピックとタグに注目すればいいのではないかという仮説のもと作成を行いました。
-                自分の書きたいトピックを見つけ、そこで最大のタグをつければ良い記事がかけます。
-                決めているトピックがある場合は、クリックでジャンプすることができます。
+                Qiitaに投稿されている記事とタグを用いて、Qiita内のトピックを調べ可視化しました。
+                プログラミング技術共有サイトとして最も使用されているQiitaの記事のトピックを知ることで、日本国内内の技術トピックを知ることができます。
+                まずは全体を見ていただき、その後ボタンまたは画面上部のトピック一覧から見たいトピックを選択することで、任意のトピックへ移動し確認することができます。
               </h2>
             </div>
           </div>
@@ -979,7 +979,7 @@ const App = () => {
         {/*footer*/}
         <footer class="footer">
           <div class="content has-text-centered">
-            <p>2020年前期課題</p>
+            <p>2020年度卒業演習課題</p>
           </div>
         </footer>
       </body>
