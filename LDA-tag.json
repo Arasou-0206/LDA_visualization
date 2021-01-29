@@ -1,6 +1,6 @@
 {
   "tag": "qiita",
-  "color": "hsl(324, 70%, 50%)",
+  "color": "hsl(127, 70%, 50%)",
   "children": [
     {
       "tag": "Python",
