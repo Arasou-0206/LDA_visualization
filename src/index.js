@@ -287,7 +287,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -304,7 +304,7 @@ const App = () => {
                     </p>
                     <div
                       class="container"
-                      style={{ width: "1000px", height: "600px" }}
+                      style={{ width: "900px", height: "600px" }}
                     >
                       <ResponsiveTreeMap
                         root={newData2[0] || []}
