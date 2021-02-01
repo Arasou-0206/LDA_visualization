@@ -278,8 +278,8 @@ const App = () => {
           <div class="box">
             <h1 class="title is-2">topic 1</h1>
             <div class="tile is-success">
-              <div class="tile is-parent is-2">
-                <div class="tile is-parent">
+              <div class="tile is-parent">
+                <div class="tile is-parent is-4">
                   <article class="tile is-child box has-background-success">
                     <p class="title">Word Cloud</p>
                     <p class="subtitle">
@@ -296,23 +296,20 @@ const App = () => {
                     </div>
                   </article>
                 </div>
-                <div class="tile is-parent">
-                  <article class="tile is-child box has-background-success">
+                <div class="tile is-parent is-6">
+                  <article class="tile is-child box has-background-success is-centered">
                     <p class="title">TreeMap</p>
                     <p class="subtitle">
                       Topicを用いてどのタグが使われているか表示した結果です。
                     </p>
                     <div
                       class="container"
-                      style={{ margin: 0,
-                        paddingTop: `${(svgHeight / svgWidth ).toFixed()}%`,
-                        width: svgWidth,
-                        height: svgHeight }}
+                      style={{ width: "1000px", height: "600px" }}
                     >
                       <ResponsiveTreeMap
-                        root={newData[0] || []}
+                        root={newData2[0] || []}
                         identity="tag"
-                        value="topic1"
+                        value="topic2"
                         innerPadding={3}
                         outerPadding={3}
                         orientLabel={false}
@@ -328,7 +325,6 @@ const App = () => {
                         animate={true}
                         motionStiffness={90}
                         motionDamping={11}
-                        fontSize={34}
                       />
                     </div>
                   </article>
