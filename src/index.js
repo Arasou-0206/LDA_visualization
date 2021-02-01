@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { render } from "react-dom";
 import ReactWordcloud from "react-wordcloud";
 import { ResponsiveTreeMap } from "@nivo/treemap";
+import * as d3 from "d3";
 
 const App = () => {
   const wordCloudOptions = {
@@ -127,6 +128,26 @@ const App = () => {
    });
   };
 
+  const margin = 30;  
+  const interval = 40;
+  const legendWidth = 200;
+  const legendLineWidth = 70;
+  const contentWidth  = interval * 25;
+  const contentHeight = 100 * 6
+  const svgWidth = contentWidth + legendWidth - margin;
+  const svgHeight = contentHeight + margin;
+  
+  const yScale = d3.scaleLinear()
+    .domain([10,1])
+    .range([contentHeight, 0])
+    .nice()
+  const xScale = d3.scaleLinear()
+    .domain([0,newData.length - 1])
+    .range([0,contentWidth])
+  const rankScale = d3.scaleLinear()
+    .domain([10,1])
+    .range([contentHeight,0])
+
   return (
     <div>
       <head>
@@ -154,8 +175,8 @@ const App = () => {
 
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-1">LDAを用いたQiita記事のトピック可視化</h1>
-              <h2 class="subtitle is-6">
+              <h1 class="title is-1 has-text-black">LDAを用いたQiita記事のトピック可視化</h1>
+              <h2 class="subtitle is-6 has-text-black">
                 Qiitaに投稿されている記事とタグを用いて、Qiita内のトピックを調べ可視化しました。
                 プログラミング技術共有サイトとして最も使用されているQiitaの記事のトピックを知ることで、日本国内内の技術トピックを知ることができます。
                 まずは全体を見ていただき、その後ボタンまたは画面上部のトピック一覧から見たいトピックを選択することで、任意のトピックへ移動し確認することができます。
@@ -283,7 +304,10 @@ const App = () => {
                     </p>
                     <div
                       class="container"
-                      style={{ width: "1000px", height: "600px" }}
+                      style={{ margin: 0,
+                        paddingTop: `${(svgHeight / svgWidth ).toFixed()}%`,
+                        width: svgWidth,
+                        height: svgHeight }}
                     >
                       <ResponsiveTreeMap
                         root={newData[0] || []}
