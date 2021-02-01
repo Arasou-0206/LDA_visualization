@@ -277,9 +277,9 @@ const App = () => {
           <a name="topic1" id="topic1"></a>
           <div class="box">
             <h1 class="title is-2">topic 1</h1>
-            <div class="tile is-success">
-              <div class="tile is-parent">
-                <div class="tile is-parent is-4">
+            <div class="tile is-success is-centered">
+              <div class="tile is-parent is-2 is-centered">
+                <div class="tile is-parent">
                   <article class="tile is-child box has-background-success">
                     <p class="title">Word Cloud</p>
                     <p class="subtitle">
@@ -296,7 +296,7 @@ const App = () => {
                     </div>
                   </article>
                 </div>
-                <div class="tile is-parent is-6">
+                <div class="tile is-parent is-centered">
                   <article class="tile is-child box has-background-success is-centered">
                     <p class="title">TreeMap</p>
                     <p class="subtitle">
@@ -304,7 +304,7 @@ const App = () => {
                     </p>
                     <div
                       class="container"
-                      style={{ width: "900px", height: "600px" }}
+                      style={{ width: "1000px", height: "600px" }}
                     >
                       <ResponsiveTreeMap
                         root={newData2[0] || []}
@@ -346,7 +346,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -405,7 +405,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -464,7 +464,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -523,7 +523,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -582,7 +582,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -641,7 +641,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -700,7 +700,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -759,7 +759,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -818,7 +818,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -877,7 +877,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
@@ -936,7 +936,7 @@ const App = () => {
                     </p>
                     <div
                       class="box has-background-white"
-                      style={{ width: "500px", height: "600px" }}
+                      style={{ width: "400px", height: "600px" }}
                     >
                       <ReactWordcloud
                         options={wordCloudOptions}
